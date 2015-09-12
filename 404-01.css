@@ -1,0 +1,63 @@
+body,html
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: #8a846a;
+	background: url("q.jpg") no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	 
+}
+.Text
+{
+	margin: 30px;
+	padding: 10px;
+	color: white;
+	position: fixed;
+}
+@media (min-width : 768px) and (max-width : 1024px)  { 
+
+	.Text
+	{
+		margin: 20px;
+	}
+}
+.Text-title
+{
+	font-size: 60px;
+	font-family: 'Source Code Pro', ;
+	margin-bottom: 2px;
+}
+.Text-subtitle
+{
+	margin-top:2px; 
+	font-family: 'Unkempt', cursive;
+	font-size: 25px;
+}
+@media (max-width : 480px) { 
+	.Text-title
+	{
+		font-size: 40px
+	}
+	.Text-subtitle
+	{
+		font-size: 20px
+	}
+
+}
+
+.btn
+{
+	width: 200px;
+	padding:10px;
+	color: white;
+	font-size: 14px;
+	border:none;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	background: orange;
+}
